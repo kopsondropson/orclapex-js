@@ -6,8 +6,8 @@
   "types": "./types/orclapex-js",
   "author": "Adrian Png <adrian.png@fuzziebrain.com",
   "license": "MIT",
-  "dependencies": {
-    "@types/jquery": "^3.2.16"
-  },
-  "devDependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jquery": "^3.3.29"
+  }
 }

@@ -428,7 +428,7 @@ declare namespace apex {
     }
 
     // @todo refreshObjectData
-    interface PluginOptions {
+    interface PluginOptions extends JQueryAjaxSettings {
       refreshObject?: string | JQuery | HTMLElement,
       refreshObjectData?: Object | Array<any>
       clear?: Function,
