@@ -283,7 +283,7 @@ declare namespace apex {
     }
 
     function addVisibilityCheck(pFunction: Function): void;
-    function alert(pMessage: string, pCallback: Function): void;
+    function alert(pMessage: string, pCallback?: Function): void;
     function clearErrors(): void;
     function confirm(pMessage: string, pCallback: Function): void;
     function hidePageSuccess(): void;
@@ -389,7 +389,7 @@ declare namespace apex {
     }
 
     interface PluginData {
-      pageItems: string | JQuery | HTMLElement | Array<string>,
+      pageItems?: string | JQuery | HTMLElement | Array<string>,
       x01?: string,
       x02?: string,
       x03?: string,
